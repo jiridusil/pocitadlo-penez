@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Počítadlo peněz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>Počítadlo peněz</h1>
+        <p>Sledujte své výdělky v reálném čase.</p>
+      </header>
+
+      <section class="card">
+        <label class="field">
+          <span>Hodinová mzda</span>
+          <div class="input-wrap">
+            <span class="prefix">Kč</span>
+            <input id="hourlyRate" type="number" min="0" step="10" placeholder="" />
+          </div>
+        </label>
+
+        <div class="actions">
+          <button id="startBtn" class="primary">Start</button>
+          <button id="stopBtn" class="ghost" disabled>Stop</button>
+          <button id="resetBtn" class="ghost" disabled>Reset</button>
+        </div>
+      </section>
+
+      <section class="output">
+        <p class="label">Výdělek v čase</p>
+        <span id="elapsedTime" class="time" aria-live="polite"></span>
+        <div id="moneyDisplayMiliseconds" class="value">0.00</div>
+        <p class="hint">Aktualizuje se každou milisekundu během běhu.</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
