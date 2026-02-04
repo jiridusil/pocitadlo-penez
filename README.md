@@ -12,3 +12,7 @@ A lightweight local web app that counts earnings in real time based on an hourly
 1. Enter your hourly rate.
 2. Click **Start** to begin counting.
 3. **Stop** to pause and **Reset** to clear the total.
+
+## Hosted on
+
+`https://pocitadlo-penez.web.app/`
