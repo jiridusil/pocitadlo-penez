@@ -15,4 +15,4 @@ A lightweight local web app that counts earnings in real time based on an hourly
 
 ## Hosted on
 
-`https://pocitadlo-penez.web.app/`
+[https://pocitadlo-penez.web.app](https://pocitadlo-penez.web.app)
